@@ -1,0 +1,124 @@
+#=============================================================================
+# dark_powered.toml --- dark powered configuration example for SpaceVim
+# Copyright (c) 2016-2017 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+    # set spacevim theme. by default colorscheme layer is not loaded,
+    # if you want to use more colorscheme, please load the colorscheme
+    # layer
+    colorscheme = "gruvbox"
+    background = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
+    enable_guicolors = true
+    # Disable statusline separator, if you want to use other value, please
+    # install nerd fonts
+    statusline_separator = "arrow"
+    statusline_inactive_separator = "arrow"
+    buffer_index_type = 4
+    enable_tabline_filetype_icon = true
+    enable_statusline_display_mode = false
+    filemanager = 'nerdtree'
+    bootstrap_after = "mysettings#after"
+
+# Enable autocomplete layer
+[[layers]]
+name = 'autocomplete'
+auto-completion-return-key-behavior = "complete"
+auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+  name = "checkers"
+  enable_ale = true
+
+[[layers]]
+name = 'shell'
+default_position = 'top'
+default_height = 30
+
+[[layers]]
+name = "lang#typescript"
+
+[[layers]]
+name = "lang#javascript"
+
+[[layers]]
+name = "ctrlp"
+
+[[layers]]
+name = "github"
+
+[[layers]]
+name = "git"
+
+[[layers]]
+name = "lang#markdown"
+
+[[layers]]
+name = "shell"
+
+[[layers]]
+name = "sudo"
+
+[[layers]]
+name = "lsp"
+
+[[layers]]
+name = "lang#html"
+
+[[layers]]
+name = "tools"
+
+[[layers]]
+name = "VersionControl"
+
+# ==========================
+# Custom plugin installation
+# ==========================
+
+[[custom_plugins]]
+name = "ryanoasis/vim-devicons"
+
+[[custom_plugins]]
+name = "airblade/vim-gitgutter"
+
+[[custom_plugins]]
+name =  "itchyny/vim-cursorword"
+
+[[custom_plugins]]
+name = "tpope/vim-obsession"
+
+[[custom_plugins]]
+name = "styled-components/vim-styled-components"
+
+[[custom_plugins]]
+name = "jceb/vim-orgmode"
+
+[[custom_plugins]]
+name = "w0rp/ale"
+
+[[custom_plugins]]
+name = "jparise/vim-graphql"
+
+[[custom_plugins]]
+name = "peitalin/vim-jsx-typescript"
+
+[[custom_plugins]]
+name = "samuelsimoes/vim-jsx-utils"
+
+[[custom_plugins]]
+name = "tpope/vim-fugitive"
+
+[[custom_plugins]]
+name = "Ron89/thesaurus_query.vim"
+
+[[custom_plugins]]
+name = "heavenshell/vim-jsdoc"
+
+[[custom_plugins]]
+name = "artnez/vim-wipeout"
