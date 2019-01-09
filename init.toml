@@ -77,6 +77,9 @@ name = "tools"
 [[layers]]
 name = "VersionControl"
 
+[[layers]]
+name = "unite"
+
 # ==========================
 # Custom plugin installation
 # ==========================
@@ -122,3 +125,6 @@ name = "heavenshell/vim-jsdoc"
 
 [[custom_plugins]]
 name = "artnez/vim-wipeout"
+
+[[custom_plugins]]
+name = "djoshea/vim-autoread"

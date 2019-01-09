@@ -13,14 +13,22 @@ func! mysettings#after() abort
     hi WebBrowser ctermfg=204 guifg=#56B6C2
     hi ReactLifeCycleMethods ctermfg=204 guifg=#D19A66
 
-    "JS docs settings
-    let g:jsdoc_input_description = 1
-    let g:jsdoc_enable_es6 = 1
-    let g:jsdoc_access_descriptions = 1
-    let g:jsdoc_underscore_private = 1
-    let g:jsdoc_additional_descriptions = 1
-    let g:jsdoc_user_defined_tags = 1
+    "Auto reload
+    set autoread
+    au CursorHold * checktime 
 
-    "Dash layer
-    call SpaceVim#layers#load('tools#dash')
+    "JS docs settings
+    let g:jsdoc_input_description       = 1
+    let g:jsdoc_enable_es6              = 1
+    let g:jsdoc_access_descriptions     = 1
+    let g:jsdoc_underscore_private      = 1
+    let g:jsdoc_additional_descriptions = 1
+    let g:jsdoc_user_defined_tags       = 1
+
+    "Emmet settings
+    let g:user_emmet_settings = {
+    \  'javascript.jsx' : {
+    \      'extends' : 'jsx',
+    \  },
+    \}
 endf
