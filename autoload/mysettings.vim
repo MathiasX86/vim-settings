@@ -31,4 +31,6 @@ func! mysettings#after() abort
     \      'extends' : 'jsx',
     \  },
     \}
+    "working path set to root
+    let g:ctrlp_working_path_mode = '0'
 endf

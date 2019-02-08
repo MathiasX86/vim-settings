@@ -33,8 +33,11 @@ auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
-  name = "checkers"
-  enable_ale = true
+name = "colorscheme"
+
+[[layers]]
+name = "checkers"
+enable_ale = true
 
 [[layers]]
 name = 'shell'
@@ -128,3 +131,12 @@ name = "artnez/vim-wipeout"
 
 [[custom_plugins]]
 name = "djoshea/vim-autoread"
+
+[[custom_plugins]]
+name  = "octref/RootIgnore"
+
+[[custom_plugins]]
+name = "wincent/command-t"
+
+[[custom_plugins]]
+name = "tpope/vim-liquid"
