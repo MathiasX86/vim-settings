@@ -11,20 +11,24 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+# default: gruvbox 
+    colorscheme = "material"
     background = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
-    statusline_separator = "arrow"
+    statusline_separator = "fire"
     statusline_inactive_separator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = false
     filemanager = 'nerdtree'
+    bootstrap_before = "mysettings#before"
     bootstrap_after = "mysettings#after"
+    enable_neomake = true
+    # enable_ale = false
 
 # Enable autocomplete layer
 [[layers]]
@@ -37,12 +41,14 @@ name = "colorscheme"
 
 [[layers]]
 name = "checkers"
-enable_ale = true
 
 [[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
+[[layers]]
+name = "lang#python"
 
 [[layers]]
 name = "lang#typescript"
@@ -70,6 +76,9 @@ name = "sudo"
 
 [[layers]]
 name = "lsp"
+filetypes = [
+  "javascript"
+]
 
 [[layers]]
 name = "lang#html"
@@ -140,3 +149,30 @@ name = "wincent/command-t"
 
 [[custom_plugins]]
 name = "tpope/vim-liquid"
+
+[[custom_plugins]]
+name = "deoplete-plugins/deoplete-jedi"
+
+# [[custom_plugins]]
+# name = "python-mode/python-mode"
+
+# [[custom_plugins]]
+# name = "python-rope/ropevim"
+
+[[custom_plugins]]
+name = "vim-vdebug/vdebug"
+
+# [[custom_plugins]]
+# name = "davidhalter/jedi-vim"
+
+[[custom_plugins]]
+name = "plytophogy/vim-virtualenv"
+
+[[custom_plugins]]
+name = "ludovicchabant/vim-gutentags"
+
+[[cust_plugins]]
+name = "liuchengxu/space-vim-dark"
+
+[[custom_plugins]]
+name = "vim-python/python-syntax"
