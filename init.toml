@@ -48,6 +48,9 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
+name = "lang#WebAssembly"
+
+[[layers]]
 name = "lang#python"
 
 [[layers]]
@@ -55,6 +58,9 @@ name = "lang#typescript"
 
 [[layers]]
 name = "lang#javascript"
+
+[[layers]]
+name = "lang#rust"
 
 [[layers]]
 name = "ctrlp"
@@ -176,3 +182,15 @@ name = "liuchengxu/space-vim-dark"
 
 [[custom_plugins]]
 name = "vim-python/python-syntax"
+
+[[custom_plugins]]
+name = "raghur/vim-ghost"
+
+[[custom_plugins]]
+name = "iamcco/markdown-preview.nvim"
+
+[[custom_plugins]]
+name = "vim-pandoc/vim-pandoc"
+
+[[custom_plugins]]
+name = "vim-pandoc/vim-pandoc-syntax"
