@@ -27,14 +27,18 @@
     filemanager = 'nerdtree'
     bootstrap_before = "mysettings#before"
     bootstrap_after = "mysettings#after"
-    enable_neomake = true
-    # enable_ale = false
+    enable_neomake = false
+    enable_ale = true
+    lint_on_the_fly = true
 
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
 auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+name = "tools"
 
 [[layers]]
 name = "colorscheme"
@@ -82,9 +86,6 @@ name = "sudo"
 
 [[layers]]
 name = "lsp"
-filetypes = [
-  "javascript"
-]
 
 [[layers]]
 name = "lang#html"
@@ -116,9 +117,6 @@ name = "tpope/vim-obsession"
 
 [[custom_plugins]]
 name = "styled-components/vim-styled-components"
-
-[[custom_plugins]]
-name = "jceb/vim-orgmode"
 
 [[custom_plugins]]
 name = "w0rp/ale"
@@ -156,9 +154,6 @@ name = "wincent/command-t"
 [[custom_plugins]]
 name = "tpope/vim-liquid"
 
-[[custom_plugins]]
-name = "deoplete-plugins/deoplete-jedi"
-
 # [[custom_plugins]]
 # name = "python-mode/python-mode"
 
@@ -183,8 +178,8 @@ name = "liuchengxu/space-vim-dark"
 [[custom_plugins]]
 name = "vim-python/python-syntax"
 
-[[custom_plugins]]
-name = "raghur/vim-ghost"
+# [[custom_plugins]]
+# name = "raghur/vim-ghost"
 
 [[custom_plugins]]
 name = "iamcco/markdown-preview.nvim"

@@ -1,8 +1,16 @@
 func! mysettings#before() abort
-  "put things in here for loading before vim 
-  let g:jedi#completions_enabled = 1
-  let g:jedi#popup_on_dot = 1
-  let g:python_highlight_all = 1
+    "put things in here for loading before vim 
+    let g:jedi#completions_enabled = 1
+    let g:jedi#popup_on_dot = 1
+    let g:python_highlight_all = 1
+
+    "use coc as autocomplete layer
+    let g:spacevim_autocomplete_method = 'coc'
+
+    "Operator Mono settings
+    hi Comment gui=italic cterm=italic
+    hi htmlArg gui=italic cterm=italic
+    hi Type    gui=italic cterm=italic
 endf
 
 func! mysettings#after() abort
@@ -41,6 +49,7 @@ func! mysettings#after() abort
     \      'extends' : 'jsx',
     \  },
     \}
+
     "working path set to root
     let g:ctrlp_working_path_mode = '0'
 endf
