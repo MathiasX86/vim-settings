@@ -61,6 +61,15 @@ name = "lang#python"
 name = "lang#typescript"
 
 [[layers]]
+name = "lang#graphql"
+
+[[layers]]
+  name = "debug"
+
+[[layers]]
+name = "fzf"
+
+[[layers]]
 name = "lang#javascript"
 
 [[layers]]
@@ -74,6 +83,7 @@ name = "github"
 
 [[layers]]
 name = "git"
+
 
 [[layers]]
 name = "lang#markdown"
@@ -121,8 +131,8 @@ name = "styled-components/vim-styled-components"
 [[custom_plugins]]
 name = "w0rp/ale"
 
-[[custom_plugins]]
-name = "jparise/vim-graphql"
+# [[custom_plugins]]
+# name = "jparise/vim-graphql"
 
 [[custom_plugins]]
 name = "peitalin/vim-jsx-typescript"
@@ -135,6 +145,8 @@ name = "tpope/vim-fugitive"
 
 [[custom_plugins]]
 name = "Ron89/thesaurus_query.vim"
+# [[custom_plugins]]
+# name = "beloglazov/vim-online-thesaurus"
 
 [[custom_plugins]]
 name = "heavenshell/vim-jsdoc"
@@ -160,8 +172,8 @@ name = "tpope/vim-liquid"
 # [[custom_plugins]]
 # name = "python-rope/ropevim"
 
-[[custom_plugins]]
-name = "vim-vdebug/vdebug"
+# [[custom_plugins]]
+# name = "vim-vdebug/vdebug"
 
 # [[custom_plugins]]
 # name = "davidhalter/jedi-vim"
@@ -189,3 +201,6 @@ name = "vim-pandoc/vim-pandoc"
 
 [[custom_plugins]]
 name = "vim-pandoc/vim-pandoc-syntax"
+
+[[custom_plugins]]
+name = "itchyny/dictionary.vim"

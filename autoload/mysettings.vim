@@ -7,10 +7,16 @@ func! mysettings#before() abort
     "use coc as autocomplete layer
     let g:spacevim_autocomplete_method = 'coc'
 
+    "must disable for Coc to work effectively
+    let g:ale_completion_enabled = 0
+
     "Operator Mono settings
-    hi Comment gui=italic cterm=italic
-    hi htmlArg gui=italic cterm=italic
-    hi Type    gui=italic cterm=italic
+    hi Comment cterm=italic
+    hi htmlArg cterm=italic
+    hi Type    cterm=italic
+    hi Comment gui=italic
+    hi htmlArg gui=italic
+    hi Type    gui=italic
 endf
 
 func! mysettings#after() abort
