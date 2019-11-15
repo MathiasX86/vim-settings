@@ -55,6 +55,10 @@ default_height = 30
 name = "lang#WebAssembly"
 
 [[layers]]
+name = "lang#latex"
+# install proselint
+
+[[layers]]
 name = 'lang#r'
 
 [[layers]]
