@@ -3,6 +3,21 @@ func! mysettings#before() abort
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
     let g:python_highlight_all = 1
+    " let g:ale_linters = {
+    " \   'mail': ['proselint'],
+    " \   'markdown': ['proselint'],
+    " \   'text': ['proselint'],
+    " \   }
+    " automatically begin linting
+    let g:ale_lint_on_enter = 1
+    " Status line
+    let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
+    " Message format
+    let g:ale_echo_msg_error_str = 'E'
+    let g:ale_echo_msg_warning_str = 'W'
+    let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+    let g:ale_sign_error = '>>'
+    let g:ale_sign_warning = '--'
 
     "use coc as autocomplete layer
     let g:spacevim_autocomplete_method = 'coc'
