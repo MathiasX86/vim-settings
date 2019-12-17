@@ -3,11 +3,11 @@ func! mysettings#before() abort
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
     let g:python_highlight_all = 1
-    " let g:ale_linters = {
-    " \   'mail': ['proselint'],
-    " \   'markdown': ['proselint'],
-    " \   'text': ['proselint'],
-    " \   }
+    let g:ale_linters = {
+    \   'mail': ['proselint'],
+    \   'markdown': ['proselint'],
+    \   'text': ['proselint'],
+    \   }
     " automatically begin linting
     let g:ale_lint_on_enter = 1
     " Status line

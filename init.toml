@@ -194,8 +194,8 @@ name = "ludovicchabant/vim-gutentags"
 [[cust_plugins]]
 name = "liuchengxu/space-vim-dark"
 
-[[custom_plugins]]
-name = "vim-python/python-syntax"
+# [[custom_plugins]]
+# name = "vim-python/python-syntax"
 
 # [[custom_plugins]]
 # name = "raghur/vim-ghost"
@@ -211,3 +211,6 @@ name = "vim-pandoc/vim-pandoc-syntax"
 
 [[custom_plugins]]
 name = "itchyny/dictionary.vim"
+
+[[custom_plugins]]
+name = "numirias/semshi"
