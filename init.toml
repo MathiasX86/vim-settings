@@ -159,6 +159,9 @@ name = "Ron89/thesaurus_query.vim"
 name = "heavenshell/vim-jsdoc"
 
 [[custom_plugins]]
+name = "othree/jsdoc-syntax.vim"
+
+[[custom_plugins]]
 name = "artnez/vim-wipeout"
 
 [[custom_plugins]]
@@ -214,3 +217,6 @@ name = "itchyny/dictionary.vim"
 
 [[custom_plugins]]
 name = "numirias/semshi"
+
+[[custom_plugins]]
+name = "liuchengxu/vim-clap"
