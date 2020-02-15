@@ -220,3 +220,24 @@ name = "numirias/semshi"
 
 [[custom_plugins]]
 name = "liuchengxu/vim-clap"
+
+[[custom_plugins]]
+name = "rhysd/git-messenger.vim"
+
+[[custom_plugins]]
+name = "HerringtonDarkholme/yats.vim"
+
+[[custom_plugins]]
+name = "yuki-ycino/fzf-preview.vim"
+
+# =============
+# Color schemes
+# =============
+
+[[custom_plugins]]
+name = "arcticicestudio/nord-vim"
+
+[[custom_plugins]]
+name = "flazz/vim-colorschemes"
+
+
