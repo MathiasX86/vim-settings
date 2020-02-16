@@ -1,4 +1,5 @@
 func! mysettings#before() abort
+
     "put things in here for loading before vim 
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
@@ -70,6 +71,9 @@ func! mysettings#after() abort
     \      'extends' : 'jsx',
     \  },
     \}
+    
+    " NerdTree location
+    let g:NERDTreeWinPos = "left"
 
     "working path set to root
     let g:ctrlp_working_path_mode = '0'
