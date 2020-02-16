@@ -81,4 +81,5 @@ func! mysettings#after() abort
     " REMAPPING
     nnoremap <leader>ff :FzfPreviewProjectFiles<CR>
     nnoremap <leader>fg :FzfPreviewProjectGrep<CR>
+    nnoremap <space>tv :Vista!!<CR>
 endf
