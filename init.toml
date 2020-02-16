@@ -230,6 +230,9 @@ name = "HerringtonDarkholme/yats.vim"
 [[custom_plugins]]
 name = "yuki-ycino/fzf-preview.vim"
 
+[[custom_plugins]]
+name = "liuchengxu/vista.vim"
+
 # =============
 # Color schemes
 # =============
