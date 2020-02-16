@@ -73,4 +73,8 @@ func! mysettings#after() abort
 
     "working path set to root
     let g:ctrlp_working_path_mode = '0'
+    
+    " REMAPPING
+    nnoremap <leader>ff :FzfPreviewProjectFiles<CR>
+    nnoremap <leader>fg :FzfPreviewProjectGrep<CR>
 endf
