@@ -156,6 +156,7 @@ name = "tpope/vim-fugitive"
 
 [[custom_plugins]]
 name = "Ron89/thesaurus_query.vim"
+
 # [[custom_plugins]]
 # name = "beloglazov/vim-online-thesaurus"
 
@@ -174,8 +175,8 @@ name = "djoshea/vim-autoread"
 [[custom_plugins]]
 name  = "octref/RootIgnore"
 
-[[custom_plugins]]
-name = "wincent/command-t"
+# [[custom_plugins]]
+# name = "wincent/command-t"
 
 [[custom_plugins]]
 name = "tpope/vim-liquid"
@@ -222,8 +223,8 @@ name = "itchyny/dictionary.vim"
 [[custom_plugins]]
 name = "numirias/semshi"
 
-[[custom_plugins]]
-name = "liuchengxu/vim-clap"
+# [[custom_plugins]]
+# name = "liuchengxu/vim-clap"
 
 [[custom_plugins]]
 name = "rhysd/git-messenger.vim"
@@ -246,5 +247,3 @@ name = "arcticicestudio/nord-vim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
-
-
