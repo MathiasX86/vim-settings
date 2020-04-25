@@ -1,14 +1,20 @@
 func! mysettings#before() abort
 
     "put things in here for loading before vim 
+
+    "Python
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
     let g:python_highlight_all = 1
-    let g:ale_linters = {
-    \   'mail': ['proselint'],
-    \   'markdown': ['proselint'],
-    \   'text': ['proselint'],
-    \   }
+
+    " let g:ale_linters = {
+    " \   'mail': ['proselint'],
+    " \   'markdown': ['proselint'],
+    " \   'text': ['proselint'],
+    " \   }
+    "
+    " let g:ale_linter_aliases = {'tsx': 'css'}
+
     " automatically begin linting
     let g:ale_lint_on_enter = 1
     " Status line
@@ -24,7 +30,7 @@ func! mysettings#before() abort
     let g:spacevim_autocomplete_method = 'coc'
 
     "must disable for Coc to work effectively
-    let g:ale_completion_enabled = 0
+    " let g:ale_completion_enabled = 0
 
     "Operator Mono settings
     hi Comment cterm=italic
@@ -65,11 +71,6 @@ func! mysettings#after() abort
     hi WebBrowser ctermfg=204 guifg=#56B6C2
     hi ReactLifeCycleMethods ctermfg=204 guifg=#D19A66
 
-    "Python
-    let g:jedi#completions_enabled = 1
-    let g:jedi#popup_on_dot = 1
-    let g:python_highlight_all = 1
-
     "Auto reload
     set autoread
     au CursorHold * checktime 
@@ -101,4 +102,9 @@ func! mysettings#after() abort
     nnoremap <leader>ff :FzfPreviewProjectFiles<CR>
     nnoremap <leader>fg :FzfPreviewProjectGrep<CR>
     nnoremap <space>tv :Vista!!<CR>
+
+    nmap <Leader>as <Plug>(AerojumpSpace)
+    nmap <Leader>ab <Plug>(AerojumpBolt)
+    nmap <Leader>aa <Plug>(AerojumpFromCursorBolt)
+    nmap <Leader>ad <Plug>(AerojumpDefault) " Boring mode
 endf

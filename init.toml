@@ -34,6 +34,7 @@
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
+autocomplete_method = "coc"
 auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
 
@@ -48,7 +49,7 @@ name = "checkers"
 
 [[layers]]
 name = 'shell'
-default_position = 'top'
+default_position = 'float'
 default_height = 30
 
 [[layers]]
@@ -68,6 +69,9 @@ name = "lang#python"
 name = "lang#typescript"
 
 [[layers]]
+name = "lang#scala"
+
+[[layers]]
 name = "lang#graphql"
 
 [[layers]]
@@ -82,8 +86,8 @@ name = "lang#javascript"
 [[layers]]
 name = "lang#rust"
 
-[[layers]]
-name = "ctrlp"
+# [[layers]]
+# name = "ctrlp"
 
 [[layers]]
 name = "github"
@@ -101,27 +105,25 @@ name = "shell"
 [[layers]]
 name = "sudo"
 
-[[layers]]
-name = "lsp"
+# I am removing this because there might be some similarities between this and the autocomplete layer
+# [[layers]]
+# name = "lsp"
 
 [[layers]]
 name = "lang#html"
 
-[[layers]]
-name = "tools"
+# [[layers]]
+# name = "tools"
 
 [[layers]]
 name = "VersionControl"
 
-[[layers]]
-name = "unite"
+# [[layers]]
+# name = "unite"
 
 # ==========================
 # Custom plugin installation
 # ==========================
-
-[[custom_plugins]]
-name = "ryanoasis/vim-devicons"
 
 [[custom_plugins]]
 name = "airblade/vim-gitgutter"
@@ -172,8 +174,8 @@ name = "artnez/vim-wipeout"
 [[custom_plugins]]
 name = "djoshea/vim-autoread"
 
-[[custom_plugins]]
-name  = "octref/RootIgnore"
+# [[custom_plugins]]
+# name  = "octref/RootIgnore"
 
 # [[custom_plugins]]
 # name = "wincent/command-t"
@@ -220,6 +222,7 @@ name = "vim-pandoc/vim-pandoc-syntax"
 [[custom_plugins]]
 name = "itchyny/dictionary.vim"
 
+# Python3 syntax highlighting
 [[custom_plugins]]
 name = "numirias/semshi"
 
@@ -242,8 +245,24 @@ name = "liuchengxu/vista.vim"
 # Color schemes
 # =============
 
-[[custom_plugins]]
-name = "arcticicestudio/nord-vim"
+# [[custom_plugins]]
+# name = "arcticicestudio/nord-vim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
+
+# =============
+# Iconography
+# =============
+
+# [[custom_plugins]]
+# name = "junegunn/vim-emoji"
+
+[[custom_plugins]]
+name = "ryanoasis/vim-webdevicons"
+
+# [[custom_plugins]]
+# name = "adelarsq/vim-emoji-icon-theme"
+
+[[custom_plugins]]
+name = "ripxorip/aerojump.nvim"
