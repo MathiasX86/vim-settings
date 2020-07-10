@@ -64,6 +64,13 @@ name = 'lang#r'
 
 [[layers]]
 name = "lang#python"
+enable_typeinfo = true
+python_file_head = [
+  '#!/usr/local/opt/python@3.8/bin/python3',
+  '# -*- coding: utf-8 -*-',
+  '',
+  ''
+]
 
 [[layers]]
 name = "lang#typescript"
@@ -84,10 +91,16 @@ name = "fzf"
 name = "lang#javascript"
 
 [[layers]]
+name = "lang#java"
+
+[[layers]]
 name = "lang#rust"
 
-# [[layers]]
-# name = "ctrlp"
+[[layers]]
+name = "ctrlp"
+
+[[layers]]
+name = "lang#csharp"
 
 [[layers]]
 name = "github"
@@ -266,3 +279,9 @@ name = "ryanoasis/vim-webdevicons"
 
 [[custom_plugins]]
 name = "ripxorip/aerojump.nvim"
+
+[[custom_plugins]]
+name = "adamclerk/vim-razor"
+
+[[custom_plugins]]
+name = "OrangeT/vim-csharp"

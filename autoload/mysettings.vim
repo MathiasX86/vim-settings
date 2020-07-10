@@ -3,6 +3,7 @@ func! mysettings#before() abort
     "put things in here for loading before vim 
 
     "Python
+    let g:python3_host_prog = '/usr/local/opt/python@3.8/bin/python3'
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
     let g:python_highlight_all = 1
