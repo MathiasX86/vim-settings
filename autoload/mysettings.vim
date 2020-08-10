@@ -2,6 +2,9 @@ func! mysettings#before() abort
 
     "put things in here for loading before vim 
 
+    "C# stuff
+    let g:OmniSharp_popup = 1
+
     "Python
     let g:python3_host_prog = '/usr/local/opt/python@3.8/bin/python3'
     let g:jedi#completions_enabled = 1
@@ -40,6 +43,15 @@ func! mysettings#before() abort
     hi Comment gui=italic
     hi htmlArg gui=italic
     hi Type    gui=italic
+
+    "Embark color settings
+    let g:lightline = {
+    \ 'colorscheme': 'embark',
+    \ }
+
+    let g:airline_theme = 'embark'
+    let g:embark_terminal_italics = 1
+
 endf
 
 func! mysettings#after() abort
@@ -92,6 +104,37 @@ func! mysettings#after() abort
     \      'extends' : 'jsx',
     \  },
     \}
+
+    "Markdown tagbar support
+    let g:tagbar_type_markdown = {
+            \ 'ctagsbin'  : 'mdctags',
+            \ 'ctagsargs' : '',
+            \ 'kinds'     : [
+            \     'a:h1:0:0',
+            \     'b:h2:0:0',
+            \     'c:h3:0:0',
+            \     'd:h4:0:0',
+            \     'e:h5:0:0',
+            \     'f:h6:0:0',
+            \ ],
+            \ 'sro'        : '::',
+            \ 'kind2scope' : {
+            \     'a' : 'h1',
+            \     'b' : 'h2',
+            \     'c' : 'h3',
+            \     'd' : 'h4',
+            \     'e' : 'h5',
+            \     'f' : 'h6',
+            \ },
+            \ 'scope2kind' : {
+            \     'h1' : 'a',
+            \     'h2' : 'b',
+            \     'h3' : 'c',
+            \     'h4' : 'd',
+            \     'h5' : 'e',
+            \     'h6' : 'f',
+            \}
+            \}
     
     " NerdTree location
     let g:NERDTreeWinPos = "left"
@@ -100,8 +143,8 @@ func! mysettings#after() abort
     let g:ctrlp_working_path_mode = '0'
     
     " REMAPPING
-    nnoremap <leader>ff :FzfPreviewProjectFiles<CR>
-    nnoremap <leader>fg :FzfPreviewProjectGrep<CR>
+    nnoremap <leader>ff :CocCommand fzf-preview.ProjectFiles<CR>
+    nnoremap <leader>fg :CocCommand fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>
     nnoremap <space>tv :Vista!!<CR>
 
     nmap <Leader>as <Plug>(AerojumpSpace)
