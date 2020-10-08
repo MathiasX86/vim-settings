@@ -80,6 +80,9 @@ name = "lang#typescript"
 name = "lang#scala"
 
 [[layers]]
+name = "lang#lua"
+
+[[layers]]
 name = "lang#graphql"
 
 [[layers]]
@@ -181,6 +184,9 @@ name = "heavenshell/vim-jsdoc"
 
 [[custom_plugins]]
 name = "othree/jsdoc-syntax.vim"
+
+[[custom_plugins]]
+name = "styled-components/vim-styled-components"
 
 [[custom_plugins]]
 name = "artnez/vim-wipeout"
