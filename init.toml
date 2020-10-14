@@ -13,7 +13,7 @@
     # layer
     # default: gruvbox 
     # others good ones: ["material"]
-    colorscheme = "embark"
+    colorscheme = "miramare"
     background = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -74,6 +74,9 @@ python_file_head = [
 ]
 
 [[layers]]
+name = "core#statusline"
+
+[[layers]]
 name = "lang#typescript"
 
 [[layers]]
@@ -81,6 +84,9 @@ name = "lang#scala"
 
 [[layers]]
 name = "lang#lua"
+
+[[layers]]
+name = "lang#sh"
 
 [[layers]]
 name = "lang#graphql"
@@ -273,6 +279,9 @@ name = "liuchengxu/vista.vim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
+
+[[custom_plugins]]
+name = "franbach/miramare"
 
 [[custom_plugins]]
 name = "skbolton/embark"

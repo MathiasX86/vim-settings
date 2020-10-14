@@ -48,9 +48,10 @@ func! mysettings#before() abort
     let g:lightline = {
     \ 'colorscheme': 'embark',
     \ }
-
-    let g:airline_theme = 'embark'
     let g:embark_terminal_italics = 1
+
+    let g:airline_theme = 'miramare'
+    let g:miramare_enable_italic = 1
 
 endf
 
