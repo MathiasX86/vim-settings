@@ -299,8 +299,10 @@ name = "rizzatti/dash.vim"
 [[custom_plugins]]
 name = "ryanoasis/vim-webdevicons"
 
+# [[custom_plugins]]
+# name = "ripxorip/aerojump.nvim"
 [[custom_plugins]]
-name = "ripxorip/aerojump.nvim"
+name = "APZelos/blamer.nvim"
 
 [[custom_plugins]]
 name = "adamclerk/vim-razor"

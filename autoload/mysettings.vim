@@ -6,6 +6,7 @@ func! mysettings#before() abort
     let g:OmniSharp_popup = 1
 
     "Python
+    let g:python_host_prog = '/usr/local/bin/python'
     let g:python3_host_prog = '/usr/local/opt/python@3.8/bin/python3'
     let g:jedi#completions_enabled = 1
     let g:jedi#popup_on_dot = 1
@@ -15,7 +16,7 @@ func! mysettings#before() abort
     " \   'mail': ['proselint'],
     " \   'markdown': ['proselint'],
     " \   'text': ['proselint'],
-    " \   }
+    " \   o
     "
     " let g:ale_linter_aliases = {'tsx': 'css'}
 
@@ -32,6 +33,7 @@ func! mysettings#before() abort
 
     "use coc as autocomplete layer
     let g:spacevim_autocomplete_method = 'coc'
+    let g:blamer_enabled = 1
 
     "must disable for Coc to work effectively
     " let g:ale_completion_enabled = 0
@@ -146,10 +148,7 @@ func! mysettings#after() abort
     " REMAPPING
     nnoremap <leader>ff :CocCommand fzf-preview.ProjectFiles<CR>
     nnoremap <leader>fg :CocCommand fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>
+    nnoremap <leader>fr :CocCommand fzf-preview.CocReferences<CR>
     nnoremap <space>tv :Vista!!<CR>
 
-    nmap <Leader>as <Plug>(AerojumpSpace)
-    nmap <Leader>ab <Plug>(AerojumpBolt)
-    nmap <Leader>aa <Plug>(AerojumpFromCursorBolt)
-    nmap <Leader>ad <Plug>(AerojumpDefault) " Boring mode
 endf
