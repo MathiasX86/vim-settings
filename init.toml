@@ -80,6 +80,9 @@ name = "core#statusline"
 name = "lang#typescript"
 
 [[layers]]
+name = "lang#ruby"
+
+[[layers]]
 name = "lang#scala"
 
 [[layers]]
@@ -286,6 +289,9 @@ name = "franbach/miramare"
 [[custom_plugins]]
 name = "skbolton/embark"
 
+[[custom_plugins]]
+name = "joshdick/onedark.vim"
+
 # =============
 # Iconography
 # =============
@@ -301,6 +307,7 @@ name = "ryanoasis/vim-webdevicons"
 
 # [[custom_plugins]]
 # name = "ripxorip/aerojump.nvim"
+
 [[custom_plugins]]
 name = "APZelos/blamer.nvim"
 
@@ -309,3 +316,6 @@ name = "adamclerk/vim-razor"
 
 [[custom_plugins]]
 name = "OrangeT/vim-csharp"
+
+[[custom_plugins]]
+name = "tpope/vim-rails"
