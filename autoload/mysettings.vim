@@ -46,14 +46,20 @@ func! mysettings#before() abort
     hi htmlArg gui=italic
     hi Type    gui=italic
 
-    "Embark color settings
-    let g:lightline = {
-    \ 'colorscheme': 'embark',
-    \ }
-    let g:embark_terminal_italics = 1
+    " set filetypes as typescriptreact
+    autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
-    let g:airline_theme = 'miramare'
-    let g:miramare_enable_italic = 1
+    " Theme
+    let g:airline_theme='oceanicnext'
+
+    " Or if you have Neovim >= 0.1.5
+    if (has("termguicolors"))
+     set termguicolors
+    endif
+
+    " Theme
+    syntax enable
+    colorscheme OceanicNext
 
 endf
 
@@ -152,6 +158,10 @@ func! mysettings#after() abort
     nnoremap <leader>ff :CocCommand fzf-preview.ProjectFiles<CR>
     nnoremap <leader>fg :CocCommand fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>
     nnoremap <leader>fr :CocCommand fzf-preview.CocReferences<CR>
+    " nnoremap <leader>ft :CocCommand fzf-preview.CocTypeDefinitions<CR>
+    nnoremap <leader>fd :TSDef<CR>
+    nnoremap <leader>fi :CocCommand fzf-preview.CocImplementations<CR>
+    nnoremap <leader>ft :CocCommand fzf-preview.CocCurrentDiagnostics<CR>
     nnoremap <space>tv :Vista!!<CR>
 
 endf
