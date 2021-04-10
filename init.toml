@@ -124,7 +124,6 @@ name = "github"
 [[layers]]
 name = "git"
 
-
 [[layers]]
 name = "lang#markdown"
 
@@ -141,14 +140,8 @@ name = "sudo"
 [[layers]]
 name = "lang#html"
 
-# [[layers]]
-# name = "tools"
-
 [[layers]]
 name = "VersionControl"
-
-# [[layers]]
-# name = "unite"
 
 # ==========================
 # Custom plugin installation
@@ -169,18 +162,12 @@ name = "styled-components/vim-styled-components"
 [[custom_plugins]]
 name = "w0rp/ale"
 
-# [[custom_plugins]]
-# name = "jparise/vim-graphql"
-
 # TYPESCRIPT
 [[custom_plugins]]
 name = "peitalin/vim-jsx-typescript"
 
 [[custom_plugins]]
 name = "leafgarland/typescript-vim"
-
-# [[custom_plugins]]
-# name = "MaxMEllon/vim-jsx-pretty"
 
 # ======
 
@@ -192,9 +179,6 @@ name = "tpope/vim-fugitive"
 
 [[custom_plugins]]
 name = "Ron89/thesaurus_query.vim"
-
-# [[custom_plugins]]
-# name = "beloglazov/vim-online-thesaurus"
 
 [[custom_plugins]]
 name = "heavenshell/vim-jsdoc"
@@ -211,41 +195,14 @@ name = "artnez/vim-wipeout"
 [[custom_plugins]]
 name = "djoshea/vim-autoread"
 
-# [[custom_plugins]]
-# name  = "octref/RootIgnore"
-
-# [[custom_plugins]]
-# name = "wincent/command-t"
-
 [[custom_plugins]]
 name = "tpope/vim-liquid"
-
-# [[custom_plugins]]
-# name = "python-mode/python-mode"
-
-# [[custom_plugins]]
-# name = "python-rope/ropevim"
-
-# [[custom_plugins]]
-# name = "vim-vdebug/vdebug"
-
-# [[custom_plugins]]
-# name = "davidhalter/jedi-vim"
 
 [[custom_plugins]]
 name = "plytophogy/vim-virtualenv"
 
-# [[custom_plugins]]
-# name = "ludovicchabant/vim-gutentags"
-
 [[custom_plugins]]
 name = "liuchengxu/space-vim-dark"
-
-# [[custom_plugins]]
-# name = "vim-python/python-syntax"
-
-# [[custom_plugins]]
-# name = "raghur/vim-ghost"
 
 [[custom_plugins]]
 name = "iamcco/markdown-preview.nvim"
@@ -272,21 +229,31 @@ name = "numirias/semshi"
 [[custom_plugins]]
 name = "rhysd/git-messenger.vim"
 
-# [[custom_plugins]]
-# name = "HerringtonDarkholme/yats.vim"
-
 [[custom_plugins]]
 name = "yuki-ycino/fzf-preview.vim"
 
 [[custom_plugins]]
 name = "liuchengxu/vista.vim"
 
-# =============
-# Color schemes
-# =============
+[[custom_plugins]]
+name = "jiangmiao/auto-pairs"
 
+# =======================================
+# Color schemes / Themes / Visual stuff
+# =======================================
+
+# Only when Neovim 0.5.0+ gets here :P
 # [[custom_plugins]]
-# name = "arcticicestudio/nord-vim"
+# name = "wbthomason/packer.nvim"
+# name = "windwp/nvim-autopairs"
+# name = "glepnir/galaxyline.nvim"
+# name = "akinsho/nvim-bufferline.lua"
+# name = "kyazdani42/nvim-web-devicons"
+# name = "nvim-telescope/telescope.nvim"
+# name = "lewis6991/gitsigns.nvim"
+# name = "nvim-compe"
+# name = "neovim/nvim-lspconfig"
+# name = "kyazdani42/nvim-tree.lua"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
@@ -303,9 +270,13 @@ name = "joshdick/onedark.vim"
 [[custom_plugins]]
 name = "mhartington/oceanic-next"
 
-# =============
-# Iconography
-# =============
+# ==========================
+# Iconography / Symbols
+# ==========================
+
+[[custom_plugins]]
+name = "onsails/lspkind-nvim"
+# Must have declarations in config files
 
 [[custom_plugins]]
 name = "junegunn/vim-emoji"
@@ -315,6 +286,9 @@ name = "rizzatti/dash.vim"
 
 [[custom_plugins]]
 name = "ryanoasis/vim-webdevicons"
+
+
+# ==========================
 
 # [[custom_plugins]]
 # name = "ripxorip/aerojump.nvim"
