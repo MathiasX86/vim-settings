@@ -158,10 +158,14 @@ func! mysettings#after() abort
     nnoremap <leader>ff :CocCommand fzf-preview.ProjectFiles<CR>
     nnoremap <leader>fg :CocCommand fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>
     nnoremap <leader>fr :CocCommand fzf-preview.CocReferences<CR>
-    " nnoremap <leader>ft :CocCommand fzf-preview.CocTypeDefinitions<CR>
+    
+    " fzf preview
     nnoremap <leader>fd :TSDef<CR>
     nnoremap <leader>fi :CocCommand fzf-preview.CocImplementations<CR>
     nnoremap <leader>ft :CocCommand fzf-preview.CocCurrentDiagnostics<CR>
     nnoremap <space>tv :Vista!!<CR>
+
+    " VIM clap
+    nnoremap <leader>c :Clap<CR>
 
 endf

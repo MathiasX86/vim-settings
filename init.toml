@@ -128,9 +128,6 @@ name = "git"
 name = "lang#markdown"
 
 [[layers]]
-name = "shell"
-
-[[layers]]
 name = "sudo"
 
 # I am removing this because there might be some similarities between this and the autocomplete layer
@@ -202,9 +199,6 @@ name = "tpope/vim-liquid"
 name = "plytophogy/vim-virtualenv"
 
 [[custom_plugins]]
-name = "liuchengxu/space-vim-dark"
-
-[[custom_plugins]]
 name = "iamcco/markdown-preview.nvim"
 
 [[custom_plugins]]
@@ -215,6 +209,7 @@ name = "vim-pandoc/vim-pandoc-syntax"
 
 [[custom_plugins]]
 name = "dhruvasagar/vim-table-mode"
+# <Leader>tm
 
 [[custom_plugins]]
 name = "itchyny/dictionary.vim"
@@ -223,20 +218,18 @@ name = "itchyny/dictionary.vim"
 [[custom_plugins]]
 name = "numirias/semshi"
 
-# [[custom_plugins]]
-# name = "liuchengxu/vim-clap"
+[[custom_plugins]]
+name = "liuchengxu/vim-clap"
 
 [[custom_plugins]]
 name = "rhysd/git-messenger.vim"
+# <Leader>gm
 
 [[custom_plugins]]
 name = "yuki-ycino/fzf-preview.vim"
 
 [[custom_plugins]]
 name = "liuchengxu/vista.vim"
-
-[[custom_plugins]]
-name = "jiangmiao/auto-pairs"
 
 # =======================================
 # Color schemes / Themes / Visual stuff
@@ -254,6 +247,8 @@ name = "jiangmiao/auto-pairs"
 # name = "nvim-compe"
 # name = "neovim/nvim-lspconfig"
 # name = "kyazdani42/nvim-tree.lua"
+# name = "folke/lsp-trouble.nvim"
+# name = "folke/tokyonight.nvim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
@@ -269,6 +264,9 @@ name = "joshdick/onedark.vim"
 
 [[custom_plugins]]
 name = "mhartington/oceanic-next"
+
+[[custom_plugins]]
+name = "liuchengxu/space-vim-dark"
 
 # ==========================
 # Iconography / Symbols
