@@ -253,6 +253,7 @@ name = "liuchengxu/vista.vim"
 # name = "hill2/floating.nvim"
 # name = "ray-x/navigator.lua"
 # name = "kdav5758/TrueZen.nvim"
+# name = "simrat39/symbols-outline.nvim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
