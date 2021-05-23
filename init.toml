@@ -231,6 +231,15 @@ name = "yuki-ycino/fzf-preview.vim"
 [[custom_plugins]]
 name = "liuchengxu/vista.vim"
 
+# File explorer 
+[[custom_plugins]]
+name = "kevinhwang91/rnvimr"
+# must be installed with ranger
+[[custom_plugins]]
+name = "rbgrouleff/bclose.vim"
+# ============
+
+
 # =======================================
 # Color schemes / Themes / Visual stuff
 # =======================================
@@ -246,6 +255,9 @@ name = "liuchengxu/vista.vim"
 # name = "lewis6991/gitsigns.nvim"
 # name = "nvim-compe"
 # name = "neovim/nvim-lspconfig"
+# name = "glepnir/lspsaga.nvim"
+# name = "gfanto/fzf-lsp.nvim"
+# name = "mfussenegger/nvim-dap"
 # name = "kyazdani42/nvim-tree.lua"
 # name = "folke/lsp-trouble.nvim"
 # name = "folke/tokyonight.nvim"
