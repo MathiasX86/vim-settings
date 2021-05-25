@@ -267,6 +267,13 @@ name = "rbgrouleff/bclose.vim"
 # name = "kdav5758/TrueZen.nvim"
 # name = "simrat39/symbols-outline.nvim"
 
+
+# =======================================
+# plugins to checkout
+# =======================================
+
+# name = "weirongxu/coc-explorer"
+
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
 
