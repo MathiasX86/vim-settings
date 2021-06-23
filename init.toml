@@ -252,12 +252,14 @@ name = "rbgrouleff/bclose.vim"
 # name = "akinsho/nvim-bufferline.lua"
 # name = "kyazdani42/nvim-web-devicons"
 # name = "nvim-telescope/telescope.nvim"
+# name = "camspiers/snap"
 # name = "lewis6991/gitsigns.nvim"
 # name = "nvim-compe"
 # name = "neovim/nvim-lspconfig"
 # name = "glepnir/lspsaga.nvim"
 # name = "gfanto/fzf-lsp.nvim"
 # name = "mfussenegger/nvim-dap"
+# name = "nvim-treesitter/nvim-treesitter"
 # name = "kyazdani42/nvim-tree.lua"
 # name = "folke/lsp-trouble.nvim"
 # name = "folke/tokyonight.nvim"
@@ -273,6 +275,8 @@ name = "rbgrouleff/bclose.vim"
 # =======================================
 
 # name = "weirongxu/coc-explorer"
+# name = "kkoomen/vim-doge"
+# name = "wellle/context.vim"
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
