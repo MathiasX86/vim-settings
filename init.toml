@@ -251,6 +251,7 @@ name = "rbgrouleff/bclose.vim"
 # name = "glepnir/galaxyline.nvim"
 # name = "akinsho/nvim-bufferline.lua"
 # name = "kyazdani42/nvim-web-devicons"
+# name = "onsails/lspkind-nvim"
 # name = "nvim-telescope/telescope.nvim"
 # name = "camspiers/snap"
 # name = "lewis6991/gitsigns.nvim"
@@ -277,6 +278,8 @@ name = "rbgrouleff/bclose.vim"
 # name = "weirongxu/coc-explorer"
 # name = "kkoomen/vim-doge"
 # name = "wellle/context.vim"
+# name = "mg979/vim-visual-multi"
+# name = dadbod something
 
 [[custom_plugins]]
 name = "flazz/vim-colorschemes"
