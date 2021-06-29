@@ -270,6 +270,7 @@ name = "rbgrouleff/bclose.vim"
 # name = "kdav5758/TrueZen.nvim"
 # name = "simrat39/symbols-outline.nvim"
 # name = "kristijanhusak/orgmode.nvim"
+# name = "ray-x/lsp_signature.nvim"
 
 
 # =======================================
